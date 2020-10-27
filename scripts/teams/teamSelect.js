@@ -40,3 +40,9 @@ export const teamSelect = () => {
         render(teamArray)
     })
 }
+
+eventHub.addEventListener("change", event => {
+    if (event.target.id === "teamOne" || event.target.id === "teamTwo" || event.target.id === "teamThree") {
+        console.log(event.target.value)
+    }
+})
