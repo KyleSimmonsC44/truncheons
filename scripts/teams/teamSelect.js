@@ -44,5 +44,6 @@ export const teamSelect = () => {
 eventHub.addEventListener("change", event => {
     if (event.target.id === "teamOne" || event.target.id === "teamTwo" || event.target.id === "teamThree") {
         console.log(event.target.value)
+        // NOTE FOR MARIO: you need to go through the teams array and .find the team whose id matches event.target.value, then do the team.js function on that team
     }
 })
