@@ -1,4 +1,5 @@
 import {getTeams, useTeams} from "./teamDataProvider.js"
+import {teamHtml} from "./team.js"
 
 const eventHub = document.querySelector(".mainContainer")
 
@@ -42,8 +43,19 @@ export const teamSelect = () => {
 }
 
 eventHub.addEventListener("change", event => {
-    if (event.target.id === "teamOne" || event.target.id === "teamTwo" || event.target.id === "teamThree") {
-        console.log(event.target.value)
+    if (event.target.id === "teamOne") {
+        const teams = useTeams()
+        const selectedTeam = teams.find(teamObj => teamObj.id === parseInt(event.target.value))
+        teamOneTarget.innerHTML = teamHtml(selectedTeam)
+
         // NOTE FOR MARIO: you need to go through the teams array and .find the team whose id matches event.target.value, then do the team.js function on that team
+    } else if (event.target.id === "teamTwo") {
+        const teams = useTeams()
+        const selectedTeam = teams.find(teamObj => teamObj.id === parseInt(event.target.value))
+        teamTwoTarget.innerHTML = teamHtml(selectedTeam)
+    } else if (event.target.id === "teamThree") {
+        const teams = useTeams()
+        const selectedTeam = teams.find(teamObj => teamObj.id === parseInt(event.target.value))
+        teamThreeTarget.innerHTML = teamHtml(selectedTeam)
     }
 })
