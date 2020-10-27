@@ -1,0 +1,29 @@
+                        Team cards
+ 
+ <div class="teamOne">
+                               <h2>Team Name</h2> 
+                               <p>Team Members</p>
+                               <div class="scoreButtons">
+                                        <button class="plusOne">Score Plus One</button> 
+                                        <button class="minusOne">Score Minus One</button>
+                                </div>
+                               <p>Score:</p> 
+                        </div>
+                        <div class="teamTwo">
+                                <h2>Team Name</h2> 
+                                <p>Team Members</p>
+                                <div class="scoreButtons">
+                                        <button class="plusOne">Score Plus One</button> 
+                                        <button class="minusOne">Score Minus One</button>
+                                        </div>
+                                <p>Score:</p> 
+                        </div>
+                        <div class="teamThree">
+                                <h2>Team Name</h2> 
+                                <p>Team Members</p>
+                                <div class="scoreButtons">
+                                        <button class="plusOne">Score Plus One</button> 
+                                        <button class="minusOne">Score Minus One</button>
+                                </div>
+                                <p>Score:</p> 
+                        </div>
