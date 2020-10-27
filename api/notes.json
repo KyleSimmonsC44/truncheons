@@ -1,0 +1,105 @@
+{
+    "Teams": [
+        {
+            "id": 1,
+            "name": "The Long Beards",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 2,
+            "name": "The Short Beards",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 3,
+            "name": "The cueballs",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 4,
+            "name": "The Freemasons",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 5,
+            "name": "The Red Dwarves",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 6,
+            "name": "The Black Castles",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 7,
+            "name": "The Salty Salamanders",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 8,
+            "name": "The Knight's Conquest",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        },
+        {
+            "id": 9,
+            "name": "The Condors",
+            "dateCreated": "2020-10-27T15:48:20.603Z"
+        }
+    ],
+
+    "People": [
+        {
+            "id": 1,
+            "firstName": "Mario",
+            "lastName": "Campopiano",
+            "Nationality": "Italian",
+            "teamId": 7
+        },
+        {
+            "id": 2,
+            "firstName": "Kyle",
+            "lastName": "Simmons",
+            "Nationality": "American",
+            "teamId": 3
+        },
+        {
+            "id": 3,
+            "firstName": "Travis",
+            "lastName": "Milner",
+            "Nationality": "Canadian",
+            "teamId": 2
+        },
+        {
+            "id": 4,
+            "firstName": "Tracy",
+            "lastName": "Depp",
+            "Nationality": "American",
+            "teamId": 9
+        },
+        {
+            "id": 5,
+            "firstName": "Bryan",
+            "lastName": "Nilsen",
+            "Nationality": "New Yorker",
+            "teamId": 4
+        }
+    ],
+
+    "Scores": [
+        {
+            "teamId": 2,
+            "dateOfGame": "2020-10-27T15:48:20.603Z",
+            "score": 25
+        },
+        {
+            "teamId": 7,
+            "dateOfGame": "2020-10-27T15:48:20.603Z",
+            "score": 15
+        },
+        {
+            "teamId": 3,
+            "dateOfGame": "2020-10-27T15:48:20.603Z",
+            "score": 23
+        }
+    ]
+}
