@@ -26,18 +26,14 @@ body{
 
 .topContainer{
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	margin-left: 10%;
 	margin-right: 10%;
 }
 
-.leaderboardButton{
-	margin-top: 27%;
-}
 
-.roundNumberContainer{
-	margin-top: 27%;
-}
+
+
 
 .roundNumber{
 	border: 2px solid #BA895C;
@@ -55,7 +51,7 @@ body{
 	display: flex;
 }
 
-.endGameButton, .endRoundButton{
+.endGameButton, .endRoundButton, .leaderboardButton{
 	margin-top: 1.7%;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
 }
@@ -134,3 +130,7 @@ p{
 	from {opacity:0%;}
 	to {opacity:100%;}
   }
+
+.betweenTop{
+	display: flex;
+}
